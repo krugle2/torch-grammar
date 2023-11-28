@@ -1,0 +1,8 @@
+up:
+  - python: '3.11.4'
+  - poetry:
+      enable_shopify_source: false
+
+commands:
+  test: pytest tests
+  style: scripts/style
